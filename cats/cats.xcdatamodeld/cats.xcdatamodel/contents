@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1170" systemVersion="11D50" minimumToolsVersion="Xcode 4.1" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Breed" representedClassName="Breed" syncable="YES">
+        <attribute name="firstLetter" optional="YES" transient="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Cat" representedClassName="Cat" syncable="YES">
+        <attribute name="birthDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="breed" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="forSale" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="gender" optional="YES" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="order" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="photoPath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="price" optional="YES" attributeType="Float" syncable="YES"/>
+        <attribute name="thumbPath" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="father" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Cat" syncable="YES"/>
+        <relationship name="mother" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Cat" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Breed" positionX="160" positionY="192" width="128" height="60"/>
+        <element name="Cat" positionX="160" positionY="192" width="128" height="210"/>
+    </elements>
+</model>

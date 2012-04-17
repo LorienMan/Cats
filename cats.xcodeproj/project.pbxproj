@@ -7,25 +7,95 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C576B2F61531F94A000F78F3 /* DatePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C576B2F41531F949000F78F3 /* DatePickerViewController.m */; };
+		C576B2F71531F94A000F78F3 /* DatePickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C576B2F51531F94A000F78F3 /* DatePickerViewController.xib */; };
+		C576B2FE15330CE1000F78F3 /* BreedPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C576B2FC15330CE1000F78F3 /* BreedPickerViewController.m */; };
+		C576B2FF15330CE1000F78F3 /* BreedPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C576B2FD15330CE1000F78F3 /* BreedPickerViewController.xib */; };
+		C576B30515336A6B000F78F3 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C576B30415336A6B000F78F3 /* CoreData.framework */; };
+		C576B30615345C11000F78F3 /* cats.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DE6AFAE0152F54830075C15E /* cats.xcdatamodeld */; };
+		C5D78475152ADF5F0049CAAD /* CatCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D78474152ADF5F0049CAAD /* CatCell.m */; };
+		C5D78478152ADF960049CAAD /* CatCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5D78477152ADF960049CAAD /* CatCell.xib */; };
 		DE127A8B151A18A90004EE73 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE127A8A151A18A90004EE73 /* UIKit.framework */; };
 		DE127A8D151A18A90004EE73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE127A8C151A18A90004EE73 /* Foundation.framework */; };
 		DE127A8F151A18A90004EE73 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE127A8E151A18A90004EE73 /* CoreGraphics.framework */; };
 		DE127A95151A18A90004EE73 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE127A93151A18A90004EE73 /* InfoPlist.strings */; };
 		DE127A97151A18A90004EE73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE127A96151A18A90004EE73 /* main.m */; };
 		DE127A9B151A18A90004EE73 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE127A9A151A18A90004EE73 /* AppDelegate.m */; };
+		DE127AA4151A19250004EE73 /* CatInfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE127AA2151A19250004EE73 /* CatInfoController.m */; };
+		DE127AA5151A19250004EE73 /* CatInfoController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE127AA3151A19250004EE73 /* CatInfoController.xib */; };
+		DE127AAB151A1DB50004EE73 /* Cats.plist in Resources */ = {isa = PBXBuildFile; fileRef = DE127AAA151A1DB50004EE73 /* Cats.plist */; };
+		DE127AAE151A1E7F0004EE73 /* 74351518_large_01_kotenok.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE127AAD151A1E7F0004EE73 /* 74351518_large_01_kotenok.jpg */; };
+		DE127AB5151A369F0004EE73 /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = DE127AB4151A369F0004EE73 /* Cat.m */; };
+		DE127AB7151A3C3C0004EE73 /* 9d3601da3c0dafa9cc255e51a6122e51.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE127AB6151A3C3C0004EE73 /* 9d3601da3c0dafa9cc255e51a6122e51.jpg */; };
+		DE127AB9151A3C6C0004EE73 /* ddf2b8aa6e27a146b83076e779ac991d.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE127AB8151A3C6C0004EE73 /* ddf2b8aa6e27a146b83076e779ac991d.jpg */; };
+		DE127ABB151A3C730004EE73 /* 50990_prev_425.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE127ABA151A3C730004EE73 /* 50990_prev_425.jpg */; };
+		DE127ABD151A3C770004EE73 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE127ABC151A3C770004EE73 /* 2.jpg */; };
+		DE127AC0151A3E1F0004EE73 /* PhotoController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE127ABF151A3E1F0004EE73 /* PhotoController.m */; };
+		DE127AC4151A42810004EE73 /* PhotoController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE127AC3151A42810004EE73 /* PhotoController.xib */; };
+		DE1B571E15261C6A004F6F36 /* CatsTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1B571C15261C6A004F6F36 /* CatsTableController.m */; };
+		DE1B571F15261C6A004F6F36 /* CatsTableController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE1B571D15261C6A004F6F36 /* CatsTableController.xib */; };
+		DE285EF815348DA0008E8F61 /* Breed.m in Sources */ = {isa = PBXBuildFile; fileRef = DE285EF715348DA0008E8F61 /* Breed.m */; };
+		DE285EFA15349E89008E8F61 /* Breeds.plist in Resources */ = {isa = PBXBuildFile; fileRef = DE285EF915349E89008E8F61 /* Breeds.plist */; };
+		DE43BC5B152B459500C8EB3C /* CatsController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE43BC5A152B459500C8EB3C /* CatsController.m */; };
+		DE43BC5E152B480200C8EB3C /* CatsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE43BC5D152B480200C8EB3C /* CatsController.xib */; };
+		DE6AFAE6152F56070075C15E /* CatEditorController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6AFAE4152F56070075C15E /* CatEditorController.m */; };
+		DE6AFAE7152F56070075C15E /* CatEditorController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE6AFAE5152F56070075C15E /* CatEditorController.xib */; };
+		DED4ABCD152213390041F0AF /* CatsGalleryController.m in Sources */ = {isa = PBXBuildFile; fileRef = DED4ABCB152213390041F0AF /* CatsGalleryController.m */; };
+		DED4ABCE152213390041F0AF /* CatsGalleryController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DED4ABCC152213390041F0AF /* CatsGalleryController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C576B2F31531F949000F78F3 /* DatePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatePickerViewController.h; sourceTree = "<group>"; };
+		C576B2F41531F949000F78F3 /* DatePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatePickerViewController.m; sourceTree = "<group>"; };
+		C576B2F51531F94A000F78F3 /* DatePickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DatePickerViewController.xib; sourceTree = "<group>"; };
+		C576B2FB15330CE1000F78F3 /* BreedPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BreedPickerViewController.h; sourceTree = "<group>"; };
+		C576B2FC15330CE1000F78F3 /* BreedPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BreedPickerViewController.m; sourceTree = "<group>"; };
+		C576B2FD15330CE1000F78F3 /* BreedPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BreedPickerViewController.xib; sourceTree = "<group>"; };
+		C576B30415336A6B000F78F3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C5D78473152ADF5F0049CAAD /* CatCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatCell.h; sourceTree = "<group>"; };
+		C5D78474152ADF5F0049CAAD /* CatCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatCell.m; sourceTree = "<group>"; };
+		C5D78477152ADF960049CAAD /* CatCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CatCell.xib; sourceTree = "<group>"; };
 		DE127A86151A18A90004EE73 /* cats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cats.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE127A8A151A18A90004EE73 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DE127A8C151A18A90004EE73 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DE127A8E151A18A90004EE73 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		DE127A92151A18A90004EE73 /* cats-Info.plist */ = {isa = PBXFileReference; path = "cats-Info.plist"; sourceTree = "<group>"; };
+		DE127A92151A18A90004EE73 /* cats-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "cats-Info.plist"; sourceTree = "<group>"; };
 		DE127A94151A18A90004EE73 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DE127A96151A18A90004EE73 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DE127A98151A18A90004EE73 /* cats-Prefix.pch */ = {isa = PBXFileReference; path = "cats-Prefix.pch"; sourceTree = "<group>"; };
-		DE127A99151A18A90004EE73 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		DE127A98151A18A90004EE73 /* cats-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cats-Prefix.pch"; sourceTree = "<group>"; };
+		DE127A99151A18A90004EE73 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DE127A9A151A18A90004EE73 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DE127AA1151A19250004EE73 /* CatInfoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatInfoController.h; sourceTree = "<group>"; };
+		DE127AA2151A19250004EE73 /* CatInfoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatInfoController.m; sourceTree = "<group>"; };
+		DE127AA3151A19250004EE73 /* CatInfoController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CatInfoController.xib; sourceTree = "<group>"; };
+		DE127AAA151A1DB50004EE73 /* Cats.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Cats.plist; sourceTree = "<group>"; };
+		DE127AAD151A1E7F0004EE73 /* 74351518_large_01_kotenok.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 74351518_large_01_kotenok.jpg; sourceTree = "<group>"; };
+		DE127AAF151A2AC60004EE73 /* Cat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
+		DE127AB4151A369F0004EE73 /* Cat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
+		DE127AB6151A3C3C0004EE73 /* 9d3601da3c0dafa9cc255e51a6122e51.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9d3601da3c0dafa9cc255e51a6122e51.jpg; sourceTree = "<group>"; };
+		DE127AB8151A3C6C0004EE73 /* ddf2b8aa6e27a146b83076e779ac991d.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ddf2b8aa6e27a146b83076e779ac991d.jpg; sourceTree = "<group>"; };
+		DE127ABA151A3C730004EE73 /* 50990_prev_425.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 50990_prev_425.jpg; sourceTree = "<group>"; };
+		DE127ABC151A3C770004EE73 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		DE127ABE151A3E1F0004EE73 /* PhotoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoController.h; sourceTree = "<group>"; };
+		DE127ABF151A3E1F0004EE73 /* PhotoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoController.m; sourceTree = "<group>"; };
+		DE127AC3151A42810004EE73 /* PhotoController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoController.xib; sourceTree = "<group>"; };
+		DE1B571B15261C69004F6F36 /* CatsTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatsTableController.h; sourceTree = "<group>"; };
+		DE1B571C15261C6A004F6F36 /* CatsTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatsTableController.m; sourceTree = "<group>"; };
+		DE1B571D15261C6A004F6F36 /* CatsTableController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CatsTableController.xib; sourceTree = "<group>"; };
+		DE285EF615348DA0008E8F61 /* Breed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Breed.h; sourceTree = "<group>"; };
+		DE285EF715348DA0008E8F61 /* Breed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Breed.m; sourceTree = "<group>"; };
+		DE285EF915349E89008E8F61 /* Breeds.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Breeds.plist; sourceTree = "<group>"; };
+		DE43BC59152B459500C8EB3C /* CatsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatsController.h; sourceTree = "<group>"; };
+		DE43BC5A152B459500C8EB3C /* CatsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatsController.m; sourceTree = "<group>"; };
+		DE43BC5D152B480200C8EB3C /* CatsController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CatsController.xib; sourceTree = "<group>"; };
+		DE6AFADD152F359C0075C15E /* CatsListController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CatsListController.h; sourceTree = "<group>"; };
+		DE6AFAE1152F54830075C15E /* cats.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = cats.xcdatamodel; sourceTree = "<group>"; };
+		DE6AFAE3152F56070075C15E /* CatEditorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatEditorController.h; sourceTree = "<group>"; };
+		DE6AFAE4152F56070075C15E /* CatEditorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatEditorController.m; sourceTree = "<group>"; };
+		DE6AFAE5152F56070075C15E /* CatEditorController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CatEditorController.xib; sourceTree = "<group>"; };
+		DED4ABCA152213380041F0AF /* CatsGalleryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatsGalleryController.h; sourceTree = "<group>"; };
+		DED4ABCB152213390041F0AF /* CatsGalleryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatsGalleryController.m; sourceTree = "<group>"; };
+		DED4ABCC152213390041F0AF /* CatsGalleryController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CatsGalleryController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C576B30515336A6B000F78F3 /* CoreData.framework in Frameworks */,
 				DE127A8B151A18A90004EE73 /* UIKit.framework in Frameworks */,
 				DE127A8D151A18A90004EE73 /* Foundation.framework in Frameworks */,
 				DE127A8F151A18A90004EE73 /* CoreGraphics.framework in Frameworks */,
@@ -42,6 +113,95 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C576B2F91531F94E000F78F3 /* DatePickerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C576B2F31531F949000F78F3 /* DatePickerViewController.h */,
+				C576B2F41531F949000F78F3 /* DatePickerViewController.m */,
+				C576B2F51531F94A000F78F3 /* DatePickerViewController.xib */,
+			);
+			name = DatePickerViewController;
+			sourceTree = "<group>";
+		};
+		C576B2FA15330CB7000F78F3 /* BreedPickerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C576B2FB15330CE1000F78F3 /* BreedPickerViewController.h */,
+				C576B2FC15330CE1000F78F3 /* BreedPickerViewController.m */,
+				C576B2FD15330CE1000F78F3 /* BreedPickerViewController.xib */,
+			);
+			name = BreedPickerViewController;
+			sourceTree = "<group>";
+		};
+		C57BD911152CD24A008C551C /* CatInfoController */ = {
+			isa = PBXGroup;
+			children = (
+				DE127AA1151A19250004EE73 /* CatInfoController.h */,
+				DE127AA2151A19250004EE73 /* CatInfoController.m */,
+				DE127AA3151A19250004EE73 /* CatInfoController.xib */,
+			);
+			name = CatInfoController;
+			sourceTree = "<group>";
+		};
+		C57BD912152CD25C008C551C /* PhotoController */ = {
+			isa = PBXGroup;
+			children = (
+				DE127AC3151A42810004EE73 /* PhotoController.xib */,
+				DE127ABE151A3E1F0004EE73 /* PhotoController.h */,
+				DE127ABF151A3E1F0004EE73 /* PhotoController.m */,
+			);
+			name = PhotoController;
+			sourceTree = "<group>";
+		};
+		C57BD913152CD268008C551C /* CatsGalleryController */ = {
+			isa = PBXGroup;
+			children = (
+				DED4ABCA152213380041F0AF /* CatsGalleryController.h */,
+				DED4ABCB152213390041F0AF /* CatsGalleryController.m */,
+				DED4ABCC152213390041F0AF /* CatsGalleryController.xib */,
+			);
+			name = CatsGalleryController;
+			sourceTree = "<group>";
+		};
+		C57BD914152CD280008C551C /* Cat */ = {
+			isa = PBXGroup;
+			children = (
+				DE127AAF151A2AC60004EE73 /* Cat.h */,
+				DE127AB4151A369F0004EE73 /* Cat.m */,
+			);
+			name = Cat;
+			sourceTree = "<group>";
+		};
+		C57BD916152CD28A008C551C /* CatsController */ = {
+			isa = PBXGroup;
+			children = (
+				DE43BC59152B459500C8EB3C /* CatsController.h */,
+				DE43BC5A152B459500C8EB3C /* CatsController.m */,
+				DE43BC5D152B480200C8EB3C /* CatsController.xib */,
+			);
+			name = CatsController;
+			sourceTree = "<group>";
+		};
+		C57BD917152CD292008C551C /* CatCell */ = {
+			isa = PBXGroup;
+			children = (
+				C5D78473152ADF5F0049CAAD /* CatCell.h */,
+				C5D78474152ADF5F0049CAAD /* CatCell.m */,
+				C5D78477152ADF960049CAAD /* CatCell.xib */,
+			);
+			name = CatCell;
+			sourceTree = "<group>";
+		};
+		C57BD918152CD29D008C551C /* CatsTableController */ = {
+			isa = PBXGroup;
+			children = (
+				DE1B571B15261C69004F6F36 /* CatsTableController.h */,
+				DE1B571C15261C6A004F6F36 /* CatsTableController.m */,
+				DE1B571D15261C6A004F6F36 /* CatsTableController.xib */,
+			);
+			name = CatsTableController;
+			sourceTree = "<group>";
+		};
 		DE127A7B151A18A90004EE73 = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +222,7 @@
 		DE127A89151A18A90004EE73 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C576B30415336A6B000F78F3 /* CoreData.framework */,
 				DE127A8A151A18A90004EE73 /* UIKit.framework */,
 				DE127A8C151A18A90004EE73 /* Foundation.framework */,
 				DE127A8E151A18A90004EE73 /* CoreGraphics.framework */,
@@ -74,7 +235,21 @@
 			children = (
 				DE127A99151A18A90004EE73 /* AppDelegate.h */,
 				DE127A9A151A18A90004EE73 /* AppDelegate.m */,
+				DE127AAA151A1DB50004EE73 /* Cats.plist */,
+				DE285EF915349E89008E8F61 /* Breeds.plist */,
+				DE6AFADD152F359C0075C15E /* CatsListController.h */,
 				DE127A91151A18A90004EE73 /* Supporting Files */,
+				DE127AAC151A1E740004EE73 /* Photos */,
+				C57BD916152CD28A008C551C /* CatsController */,
+				C57BD913152CD268008C551C /* CatsGalleryController */,
+				C57BD918152CD29D008C551C /* CatsTableController */,
+				C57BD911152CD24A008C551C /* CatInfoController */,
+				C57BD912152CD25C008C551C /* PhotoController */,
+				DE6AFAE8152F560E0075C15E /* CatEditorController */,
+				C57BD917152CD292008C551C /* CatCell */,
+				C57BD914152CD280008C551C /* Cat */,
+				DE285EF415348D80008E8F61 /* Breed */,
+				DE6AFAE0152F54830075C15E /* cats.xcdatamodeld */,
 			);
 			path = cats;
 			sourceTree = "<group>";
@@ -88,6 +263,39 @@
 				DE127A98151A18A90004EE73 /* cats-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DE127AAC151A1E740004EE73 /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				DE127AAD151A1E7F0004EE73 /* 74351518_large_01_kotenok.jpg */,
+				DE127AB6151A3C3C0004EE73 /* 9d3601da3c0dafa9cc255e51a6122e51.jpg */,
+				DE127AB8151A3C6C0004EE73 /* ddf2b8aa6e27a146b83076e779ac991d.jpg */,
+				DE127ABA151A3C730004EE73 /* 50990_prev_425.jpg */,
+				DE127ABC151A3C770004EE73 /* 2.jpg */,
+			);
+			name = Photos;
+			sourceTree = "<group>";
+		};
+		DE285EF415348D80008E8F61 /* Breed */ = {
+			isa = PBXGroup;
+			children = (
+				DE285EF615348DA0008E8F61 /* Breed.h */,
+				DE285EF715348DA0008E8F61 /* Breed.m */,
+			);
+			name = Breed;
+			sourceTree = "<group>";
+		};
+		DE6AFAE8152F560E0075C15E /* CatEditorController */ = {
+			isa = PBXGroup;
+			children = (
+				DE6AFAE3152F56070075C15E /* CatEditorController.h */,
+				DE6AFAE4152F56070075C15E /* CatEditorController.m */,
+				DE6AFAE5152F56070075C15E /* CatEditorController.xib */,
+				C576B2F91531F94E000F78F3 /* DatePickerViewController */,
+				C576B2FA15330CB7000F78F3 /* BreedPickerViewController */,
+			);
+			name = CatEditorController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +349,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE127A95151A18A90004EE73 /* InfoPlist.strings in Resources */,
+				DE127AA5151A19250004EE73 /* CatInfoController.xib in Resources */,
+				DE127AAB151A1DB50004EE73 /* Cats.plist in Resources */,
+				DE127AAE151A1E7F0004EE73 /* 74351518_large_01_kotenok.jpg in Resources */,
+				DE127AB7151A3C3C0004EE73 /* 9d3601da3c0dafa9cc255e51a6122e51.jpg in Resources */,
+				DE127AB9151A3C6C0004EE73 /* ddf2b8aa6e27a146b83076e779ac991d.jpg in Resources */,
+				DE127ABB151A3C730004EE73 /* 50990_prev_425.jpg in Resources */,
+				DE127ABD151A3C770004EE73 /* 2.jpg in Resources */,
+				DE127AC4151A42810004EE73 /* PhotoController.xib in Resources */,
+				DED4ABCE152213390041F0AF /* CatsGalleryController.xib in Resources */,
+				DE1B571F15261C6A004F6F36 /* CatsTableController.xib in Resources */,
+				C5D78478152ADF960049CAAD /* CatCell.xib in Resources */,
+				DE43BC5E152B480200C8EB3C /* CatsController.xib in Resources */,
+				DE6AFAE7152F56070075C15E /* CatEditorController.xib in Resources */,
+				C576B2F71531F94A000F78F3 /* DatePickerViewController.xib in Resources */,
+				C576B2FF15330CE1000F78F3 /* BreedPickerViewController.xib in Resources */,
+				DE285EFA15349E89008E8F61 /* Breeds.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +377,18 @@
 			files = (
 				DE127A97151A18A90004EE73 /* main.m in Sources */,
 				DE127A9B151A18A90004EE73 /* AppDelegate.m in Sources */,
+				DE127AA4151A19250004EE73 /* CatInfoController.m in Sources */,
+				DE127AB5151A369F0004EE73 /* Cat.m in Sources */,
+				DE127AC0151A3E1F0004EE73 /* PhotoController.m in Sources */,
+				DED4ABCD152213390041F0AF /* CatsGalleryController.m in Sources */,
+				DE1B571E15261C6A004F6F36 /* CatsTableController.m in Sources */,
+				C5D78475152ADF5F0049CAAD /* CatCell.m in Sources */,
+				DE43BC5B152B459500C8EB3C /* CatsController.m in Sources */,
+				DE6AFAE6152F56070075C15E /* CatEditorController.m in Sources */,
+				C576B2F61531F94A000F78F3 /* DatePickerViewController.m in Sources */,
+				C576B2FE15330CE1000F78F3 /* BreedPickerViewController.m in Sources */,
+				C576B30615345C11000F78F3 /* cats.xcdatamodeld in Sources */,
+				DE285EF815348DA0008E8F61 /* Breed.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +492,22 @@
 				DE127AA0151A18A90004EE73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DE6AFAE0152F54830075C15E /* cats.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DE6AFAE1152F54830075C15E /* cats.xcdatamodel */,
+			);
+			currentVersion = DE6AFAE1152F54830075C15E /* cats.xcdatamodel */;
+			path = cats.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = DE127A7D151A18A90004EE73 /* Project object */;
 }
